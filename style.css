@@ -1,17 +1,39 @@
-html, body {
-	font-family: Courier;
+body {
+	font-family: Courier, monospace;
 	font-size: 1em;
-	background-color: white;
+	background-color: #fff;
+	margin: 1em auto;
+	width: max-content;
+}
+h1, h2 {
+	text-shadow: 1px 1px 3px #999;
+}
+dt {
+	float: left;
+	clear: left;
+	width: 7em;
+	text-align: right;
+	font-weight: bold;
+}
+dd {
+	margin: 0 0 0 8em;
+	padding: 0 0 0.5em 0;
 }
 .flag1, .flag2on, .flag3ipv4, .flag4ipv6, .flag5, .flag6 {
 	display: none;
 }
 .mark_red {
-	color: #A00000;
+	color: #A00000 !important;
 }
 .mark_green {
-	color: #00A000;
+	color: #00A000 !important;
 }
 .mark_blue {
 	color: #0000A0;
+}
+@media (prefers-color-scheme: dark) {
+	body {
+		color: #fff;
+		background-color: #333;
+	}
 }
