@@ -36,7 +36,7 @@ dd {
 		color: #fff;
 		background-color: #333;
 	}
-	.mark_blue {
+	.mark_blue, .mark_blue a {
 		color: #66f;
 	}
 }
